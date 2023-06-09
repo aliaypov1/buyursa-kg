@@ -1,0 +1,93 @@
+
+.header{
+  padding: 18px 0;
+  background-color:  #1e1e1e;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1220px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__link{
+  color: #FFF;
+  margin-left: 25px;
+}
+
+
+.header__link:hover {
+color: #85233e;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.header__link {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.header__link::before {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  left: 0;
+  height: 1px;
+  background: rgb(133, 35, 62);
+  width: 100%;
+  transition: 0.3s all;
+  transform: scaleX(0);
+}
+
+.header__link:hover::before {
+  transform: scaleX(1);
+}
+.header__logo {
+  position: relative;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 100%;
+  color: #FFF;
+}
+
+.header__logo::before {
+  position: absolute;
+  content: "";
+  bottom: -3px;
+  left: 0;
+  height: 1px;
+  background: #fff;
+  width: 100%;
+  transition: 0.3s all;
+  transform: scaleX(0);
+}
+
+.header__logo:hover::before {
+  transform: scaleX(1);
+}
+
+.header__svg {
+  color: white !important;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+}
+
+.header__svg > svg {
+  width: 20px;
+  height: 20px;
+}
+
+.header__space:hover .header__svg{
+  color: #85233e !important;
+  cursor: pointer;
+  transition: 0.3s;
+}

@@ -1,0 +1,22 @@
+.container{
+    border-radius: 27px;
+    transform: translateY(-100px);
+    background-color: aliceblue;
+   
+   }
+   .container:hover{
+       opacity: .9;
+       transition: .2s;
+   }
+   
+   
+   
+   .content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px;
+    font-size: 22px;
+    margin-top: 80px;
+    border-radius: 15px;
+   
+   }

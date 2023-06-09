@@ -1,0 +1,1 @@
+export const BASE_URL = 'http://frez773-001-site1.atempurl.com/api/Auth/'

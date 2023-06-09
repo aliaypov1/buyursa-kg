@@ -1,0 +1,75 @@
+
+.about {
+    width: 100%;
+    padding: 220px 0 ;
+    background: url(https://freemockup.ru/wp-content/uploads/2018/09/free-animated-macbook-mockup.gif)no-repeat right fixed;
+    background-color: black;
+
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.about__title {
+    color: #FFF;
+    font-size: 45px;
+}
+
+.about__text {
+    font-size: 22px;
+    color: #FFF;
+    margin-top: 25px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+.wrapper{
+    
+    background-color: black;
+}
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__title {
+    color: #FFF;
+    font-size: 29px;
+    
+}
+.wrapper__titles {
+    color: #FFF;
+    font-size: 49px;
+    padding-bottom: 120px;
+    
+}
+
+.wrapper__text {
+    color: rgb(173, 215, 20);
+    font-size: 43px;
+    font-weight: 700;
+}
+.wrapper__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+}
+.wrapper__card3{
+    margin-bottom: 120px;
+    height: 500px;
+}
+.wrapper__card3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+body{
+    background-color: black;
+    color: #FFF;
+}

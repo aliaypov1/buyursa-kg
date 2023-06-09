@@ -1,0 +1,12 @@
+.container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   max-width: 1400px;
+   margin: 0 auto;
+   border: 2px solid aliceblue;
+   height: 80px;
+   padding: 10px;
+   border-radius: 10px;
+   color: white;
+   column-gap: 20px;
+}

@@ -1,0 +1,39 @@
+.about {
+    width: 100%;
+    padding: 220px 0;
+    background: url(https://i.gifer.com/82J8.gif) center/cover fixed;
+}
+
+.about__title {
+    color: #FFF;
+    font-size: 45px;
+}
+
+.about__text {
+    font-size: 28px;
+    color: #FFF;
+    margin-top: 25px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__title {
+    color: #FFF;
+    font-size: 29px;
+    margin-top: 90px;
+}
+
+.wrapper__text {
+    color: rgb(173, 215, 20);
+    font-size: 43px;
+    font-weight: 700;
+}
